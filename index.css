@@ -16,20 +16,9 @@
 }
 html{
 font-size: 55%;
-overflow-x: hidden;
+
 }
-html::-webkit-scrollbar{
-    width: 1.4rem; 
-}
-html::-webkit-scrollbar-track {
-width: 1.4rem; 
-}
-html ::-webkit-scrollbar-track {
-    background: #222;
-}
-html ::-webkit-scrollbar-thumb {
-    background:var(--yellow);
-}
+
 body {
     background: #111;
     overflow-x: hidden;
@@ -42,9 +31,9 @@ body {
 header{
     position: flexed;
     top: 0; left: 0;
-  
+    z-index: 1000;
     height: 100%;
-    width: 30rem;
+    width: 35rem;
     background: #1a1a1a;
     display:flex ;
     align-items: center;
